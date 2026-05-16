@@ -1,0 +1,69 @@
+2026-05-14 15:10:04 [main] INFO  com.framework.base.BaseTest - ========= TEST STARTED =========
+2026-05-14 15:10:04 [main] INFO  com.framework.driver.DriverFactory - Initializing Browser: chrome
+2026-05-14 15:10:08 [main] INFO  com.framework.driver.DriverFactory - Chrome Browser Launched Successfully
+2026-05-14 15:10:08 [main] INFO  com.framework.driver.DriverFactory - Browser Window Maximized
+2026-05-14 15:10:08 [main] INFO  com.framework.driver.DriverFactory - Implicit Wait Applied
+2026-05-14 15:10:08 [main] INFO  com.framework.driver.DriverFactory - Driver Stored In ThreadLocal
+2026-05-14 15:10:15 [main] INFO  com.framework.base.BaseTest - Navigated To URL
+2026-05-14 15:10:15 [main] INFO  com.framework.base.BaseTest - Verifying Page Title
+2026-05-14 15:10:15 [main] INFO  com.framework.base.BaseTest - Page Title Is: The Internet
+2026-05-14 15:10:15 [main] INFO  com.framework.base.BaseTest - Title Validation Successful
+2026-05-14 15:10:15 [main] INFO  com.framework.base.BaseTest - Closing Browser
+2026-05-14 15:10:15 [main] INFO  com.framework.base.BaseTest - Driver Removed From ThreadLocal
+2026-05-14 15:10:16 [main] INFO  com.framework.base.BaseTest - ========= TEST ENDED =========
+2026-05-16 07:53:26 [main] INFO  com.framework.base.BaseTest - ========= TEST STARTED =========
+2026-05-16 07:53:26 [main] INFO  com.framework.driver.DriverFactory - Initializing Browser: chrome
+2026-05-16 07:53:29 [main] INFO  com.framework.driver.DriverFactory - Chrome Browser Launched Successfully
+2026-05-16 07:53:29 [main] INFO  com.framework.driver.DriverFactory - Browser Window Maximized
+2026-05-16 07:53:29 [main] INFO  com.framework.driver.DriverFactory - Implicit Wait Applied
+2026-05-16 07:53:29 [main] INFO  com.framework.driver.DriverFactory - Driver Stored In ThreadLocal
+2026-05-16 07:53:29 [main] INFO  com.framework.base.BaseTest - Navigated To URL
+2026-05-16 07:53:29 [main] INFO  com.tests.LoginTest - Starting SauceDemo Login Test
+2026-05-16 07:53:29 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.id: user-name
+2026-05-16 07:53:29 [main] INFO  com.framework.elements.ElementActions - Entered Text Into Element: By.id: user-name Value: standard_user
+2026-05-16 07:53:29 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.id: password
+2026-05-16 07:53:30 [main] INFO  com.framework.elements.ElementActions - Entered Text Into Element: By.id: password Value: secret_sauce
+2026-05-16 07:53:30 [main] INFO  com.framework.elements.ElementActions - Finding Clickable Element: By.id: login-button
+2026-05-16 07:53:30 [main] INFO  com.framework.elements.ElementActions - Clicked On Element: By.id: login-button
+2026-05-16 07:53:30 [main] INFO  com.tests.LoginTest - Login Action Completed
+2026-05-16 07:53:30 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.cssSelector: span.title
+2026-05-16 07:53:30 [main] INFO  com.framework.elements.ElementActions - Element Visibility Status: By.cssSelector: span.title Status: true
+2026-05-16 07:53:30 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.cssSelector: span.title
+2026-05-16 07:53:30 [main] INFO  com.framework.elements.ElementActions - Captured Text From Element: By.cssSelector: span.title Text: Products
+2026-05-16 07:53:30 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.id: shopping_cart_container
+2026-05-16 07:53:30 [main] INFO  com.framework.elements.ElementActions - Element Visibility Status: By.id: shopping_cart_container Status: true
+2026-05-16 07:53:30 [main] INFO  com.tests.LoginTest - Login Validation Successful
+2026-05-16 07:53:30 [main] INFO  com.framework.base.BaseTest - Closing Browser
+2026-05-16 07:53:30 [main] INFO  com.framework.base.BaseTest - Driver Removed From ThreadLocal
+2026-05-16 07:53:30 [main] INFO  com.framework.base.BaseTest - ========= TEST ENDED =========
+2026-05-16 08:21:14 [main] INFO  com.framework.base.BaseTest - ========= TEST STARTED =========
+2026-05-16 08:21:14 [main] INFO  com.framework.driver.DriverFactory - Initializing Browser: chrome
+2026-05-16 08:21:16 [main] INFO  com.framework.driver.DriverFactory - Chrome Browser Launched Successfully
+2026-05-16 08:21:16 [main] INFO  com.framework.driver.DriverFactory - Browser Window Maximized
+2026-05-16 08:21:16 [main] INFO  com.framework.driver.DriverFactory - Implicit Wait Applied
+2026-05-16 08:21:16 [main] INFO  com.framework.driver.DriverFactory - Driver Stored In ThreadLocal
+2026-05-16 08:21:16 [main] INFO  com.framework.base.BaseTest - Navigated To URL
+2026-05-16 08:21:16 [main] INFO  com.tests.LoginTest - Starting SauceDemo Login Test
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.id: user-name
+2026-05-16 08:21:16 [main] INFO  com.framework.utilities.WaitUtils - Waiting For Visibility Of Element: By.id: user-name
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Entered Text Into Element: By.id: user-name Value: standard_user
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.id: password
+2026-05-16 08:21:16 [main] INFO  com.framework.utilities.WaitUtils - Waiting For Visibility Of Element: By.id: password
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Entered Text Into Element: By.id: password Value: secret_sauce
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Finding Clickable Element: By.id: login-button
+2026-05-16 08:21:16 [main] INFO  com.framework.utilities.WaitUtils - Waiting For Element To Become Clickable: By.id: login-button
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Clicked On Element: By.id: login-button
+2026-05-16 08:21:16 [main] INFO  com.tests.LoginTest - Login Action Completed
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.cssSelector: span.title
+2026-05-16 08:21:16 [main] INFO  com.framework.utilities.WaitUtils - Waiting For Visibility Of Element: By.cssSelector: span.title
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Element Visibility Status: By.cssSelector: span.title Status: true
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.cssSelector: span.title
+2026-05-16 08:21:16 [main] INFO  com.framework.utilities.WaitUtils - Waiting For Visibility Of Element: By.cssSelector: span.title
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Captured Text From Element: By.cssSelector: span.title Text: Products
+2026-05-16 08:21:16 [main] INFO  com.framework.elements.ElementActions - Finding Element: By.id: shopping_cart_container
+2026-05-16 08:21:16 [main] INFO  com.framework.utilities.WaitUtils - Waiting For Visibility Of Element: By.id: shopping_cart_container
+2026-05-16 08:21:17 [main] INFO  com.framework.elements.ElementActions - Element Visibility Status: By.id: shopping_cart_container Status: true
+2026-05-16 08:21:17 [main] INFO  com.tests.LoginTest - Login Validation Successful
+2026-05-16 08:21:17 [main] INFO  com.framework.base.BaseTest - Closing Browser
+2026-05-16 08:21:17 [main] INFO  com.framework.base.BaseTest - Driver Removed From ThreadLocal
+2026-05-16 08:21:17 [main] INFO  com.framework.base.BaseTest - ========= TEST ENDED =========
